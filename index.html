@@ -14,25 +14,27 @@
     <!-- Beginning of app -->
     <div class="app_container">
       <!-- Top menu -->
-      <div class="top_menu">
-        <div class="top_menu_logo"><img id="logo_menu" src="./images/vs_code_logo.png" alt="" /></div>
-        <div class="top_menu_items">
-          <span class="top_menu_button">File</span>
-          <span class="top_menu_button">Edit</span>
-          <span class="top_menu_button">Selection</span>
-          <span class="top_menu_button">View</span>
-          <span class="top_menu_button">Go</span>
-          <span class="top_menu_button">Run</span>
-          <span class="top_menu_button">Terminal</span>
-          <span class="top_menu_button">Help</span>
+      <div class="top-menu">
+        <div class="top-menu_logo"><img src="./images/vs_code_logo.png" alt="" /></div>
+        <div class="top-menu_items">
+          <ul>
+            <li>File</li>
+            <li>Edit</li>
+            <li>Selection</li>
+            <li>View</li>
+            <li>Go</li>
+            <li>Run</li>
+            <li>Terminal</li>
+            <li>Help</li>
+          </ul>
         </div>
         <div class="top_menu_title"><span>Visual Studio Code</span></div>
         <div class="top_menu_sys_icons"></div>
       </div>
       <!-- Main container -->
-      <div class="main_container">
+      <div class="main-container">
         <!-- Side menu -->
-        <div class="sidebar_section">
+        <div class="main-container_sidebar">
           <div>
             <span data-width="25" class="iconify side_icons" data-icon="codicon:files" alt="Explorer"></span>
             <span data-width="25" class="iconify side_icons" data-icon="codicon:search"></span>
@@ -46,60 +48,60 @@
             <span data-width="25" class="iconify side_icons" data-icon="codicon:gear"></span>
           </div>
         </div>
-        <div class="side_explorer">
-          <div class="side_explorer_top">
+        <div class="main-container-explorer">
+          <div class="main-container-explorer_top">
             <span>EXPLORER</span>
             <span class="points_suspension">...</span>
           </div>
-          <div class="side_explorer_bottom"><span data-width="16" class="iconify" data-icon="codicon:chevron-right"></span>OUTLINE</div>
+          <div class="main-container-explorer_bottom"><span data-width="16" class="iconify" data-icon="codicon:chevron-right"></span>OUTLINE</div>
         </div>
         <!-- Main window -->
-        <div class="main_window">
+        <div class="main-container-editor-window">
           <!-- Tab section -->
-          <div class="tab_section">
-            <div class="tab_head">
+          <div class="main-container-editor-window_tabs">
+            <div>
               <span data-width="14" class="iconify tab_icon_css" data-icon="mdi:language-css3"></span>
-              <p class="tab-text">styles.css</p>
+              <p>styles.css</p>
               <span data-width="16" class="iconify tab_close" data-icon="codicon:close"></span>
             </div>
-            <div class="tab_head">
+            <div>
               <span data-width="16" class="iconify tab_icon_html" data-icon="mdi:language-html5"></span>
-              <p class="tab-text">styles.css</p>
+              <p>index.html</p>
               <span data-width="16" class="iconify tab_close" data-icon="codicon:close"></span>
             </div>
-            <div class="tab_head">
+            <div>
               <span data-width="16" class="iconify tab_icon_javascript" data-icon="mdi:language-javascript"></span>
-              <p class="tab-text">styles.css</p>
+              <p>script.js</p>
               <span data-width="16" class="iconify tab_close" data-icon="codicon:close"></span>
             </div>
           </div>
           <!-- Editor section -->
-          <div class="editor_section">EDITOR SECTION</div>
+          <div class="main-container-editor_editor">EDITOR SECTION</div>
         </div>
       </div>
       <!-- Footer -->
-      <div class="footer_container">
-        <div class="footer_remote">
+      <div class="footer-container">
+        <div class="footer-container_remote">
           <span data-width="15" class="iconify-inline remote" data-icon="codicon:remote"></span>
         </div>
-        <div class="footer_blue_section">
-          <div class="footer_problems">
+        <div class="footer-container_blue-section">
+          <div class="footer-container_blue-section_problems">
             <span data-width="14" class="iconify-inline" data-icon="codicon:error"></span>
-            <p class="footer_problem_text">0</p>
+            <p>0</p>
             <span data-width="14" class="iconify-inline" data-icon="codicon:warning"> </span>
-            <p class="footer_problem_text">0</p>
+            <p>0</p>
           </div>
-          <div class="footer_filePath"><i class="blue_section_item"> c:/Users/Heimdall/Desktop/Coding/styles.css</i></div>
-          <div class="footer_file_infos">
-            <div class="blue_section_item">Ln 93, Col 21</div>
-            <div class="blue_section_item">Spaces: 2</div>
-            <div class="blue_section_item">UTF-8</div>
-            <div class="blue_section_item">CRLF</div>
-            <div class="blue_section_item">CSS</div>
-            <div class="blue_section_item">Port : 5500</div>
-            <div class="blue_section_item"><span class="iconify-inline" data-icon="codicon:check" style="color: white"></span> Prettier</div>
-            <div class="blue_section_item"><span class="iconify-inline" data-icon="codicon:feedback" style="color: white"></span></div>
-            <div class="blue_section_item"><span class="iconify-inline" data-icon="codicon:bell-dot" style="color: white"></span></div>
+          <div class="footer-container_blue-section_filePath"><i> c:/Users/Heimdall/Desktop/Coding/styles.css</i></div>
+          <div class="footer-container_blue-section_file-infos">
+            <div>Ln 93, Col 21</div>
+            <div>Spaces: 2</div>
+            <div>UTF-8</div>
+            <div>CRLF</div>
+            <div>CSS</div>
+            <div>Port : 5500</div>
+            <div><span class="iconify-inline" data-icon="codicon:check" style="color: white"></span> Prettier</div>
+            <div><span class="iconify-inline" data-icon="codicon:feedback" style="color: white"></span></div>
+            <div><span class="iconify-inline" data-icon="codicon:bell-dot" style="color: white"></span></div>
           </div>
         </div>
       </div>
