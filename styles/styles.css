@@ -91,6 +91,7 @@
   background-color: #252526;
   width: 15%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 10;
 }
 .main-container-explorer_top {
   height: 3rem;
@@ -122,12 +123,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.8rem;
   background-color: #252526;
-  height: 4.5%;
+  height: 3.7%;
+  z-index: 9;
 }
 .main-container-editor-window_tabs div {
   cursor: pointer;
   display: flex;
-  padding: 10px;
+  padding: 0 10px 0 10px;
   background-color: #2d2d2d;
   align-items: center;
 }
@@ -149,13 +151,13 @@
 
 .tab_close {
   color: #fff;
-  padding: 0 5px 0 5px;
+  padding: 0 0 0 10px;
 }
 
 /* Editor */
 .main-container-editor_editor {
   background-color: #1e1e1e;
-  height: 95.5%;
+  height: 96.3%;
 }
 
 .editor-breadcrumbs {
@@ -166,7 +168,7 @@
   font-size: 0.8rem;
   background-color: #1e1e1e;
   padding-left: 15px;
-  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
   height: 2.7%;
 }
 
